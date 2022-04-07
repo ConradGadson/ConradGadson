@@ -4,34 +4,34 @@ score=0
 total_questions=4
 
 if answer.lower()=='yes':
-    answer=input('Question 1: Finish the lyric: I never sleep, because sleep is the cousin of ______ ')
-    if answer.lower()=='death':
+    answer=input('Question 1: What is Conrad's last name?
+    if answer.lower()=='Gadson':
         score += 1
         print('YES!!! YOU ARE A GENIUS')
     else:
-        print('SIKE! WRONG ANSWER HAHA')
+        print('WRONG ANSWER')
 
 
-    answer=input('Question 2: Is Pop Smoke the king of NY?')
+    answer=input('Question 2: Is Conrad a System Network Administrator?')
     if answer.lower()=='yes':
         score += 1
-        print('YESyes! LETS GET TO THE NEXT QUESTION..')
+        print('YES! LETS GET TO THE NEXT QUESTION..')
     else:
-        print('SIKE!! Wrong Answer LOL')
+        print('Wrong Answer LOL')
 
     answer=input('Question 3: VERRYYY HARD: If life give you lemons, make ______')
     if answer.lower()=='Lemonade':
         score += 1
         print('correct')
     else:
-        print('SIKE!!! WRONG ANSWERR LOOLLL')
+        print('WRONG ANSWER')
 
-    answer=input('Question 4: SUPERRRR HARD!!: what must you pass to get through life?')
-    if answer.lower()=='vibe check':
+    answer=input('Question 4: What University did Conrad attend?')
+    if answer.lower()=='FAU':
         score += 1
         print('correct')
     else:
-        print('SIKE!!! WRONG ANSWERR LOOLLL')
+        print('WRONG ANSWERR LOL')
 
 
 print('Thank you for Playing the Conrad quiz, you attempted',score,"questions correctly!")
